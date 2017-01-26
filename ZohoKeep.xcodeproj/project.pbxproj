@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D38DCBB1E37D70100E63CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCBA1E37D70100E63CEB /* AppDelegate.swift */; };
+		2D38DCC01E37D70100E63CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D38DCBE1E37D70100E63CEB /* Main.storyboard */; };
+		2D38DCC31E37D70100E63CEB /* ZohoKeep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCC11E37D70100E63CEB /* ZohoKeep.xcdatamodeld */; };
+		2D38DCC51E37D70100E63CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D38DCC41E37D70100E63CEB /* Assets.xcassets */; };
+		2D38DCC81E37D70100E63CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D38DCC61E37D70100E63CEB /* LaunchScreen.storyboard */; };
+		2D38DCD71E38425400E63CEB /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCD61E38425400E63CEB /* DashBoardViewController.swift */; };
+		2D38DCDA1E3842C600E63CEB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCD91E3842C600E63CEB /* BaseViewController.swift */; };
+		2D38DCDC1E38436700E63CEB /* BaseNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCDB1E38436700E63CEB /* BaseNSObject.swift */; };
+		2D38DCDF1E38711800E63CEB /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCDE1E38711800E63CEB /* TaskTableViewCell.swift */; };
+		2D38DCE21E38791800E63CEB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCE11E38791800E63CEB /* UIView+Extension.swift */; };
+		2D38DCE81E38861000E63CEB /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCE71E38861000E63CEB /* CreateTaskViewController.swift */; };
+		2D38DCEB1E38D31E00E63CEB /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCEA1E38D31E00E63CEB /* GroupModel.swift */; };
+		2D38DCEE1E38D4EE00E63CEB /* GroupDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCED1E38D4EE00E63CEB /* GroupDataModel.swift */; };
+		2D38DCF01E38D7F500E63CEB /* EnumClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCEF1E38D7F500E63CEB /* EnumClasses.swift */; };
+		2D38DCF21E38F02200E63CEB /* CreateTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCF11E38F02200E63CEB /* CreateTaskModel.swift */; };
+		2D38DCF41E38F1E900E63CEB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCF31E38F1E900E63CEB /* String+Extension.swift */; };
+		2D38DCF61E390CD900E63CEB /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38DCF51E390CD900E63CEB /* GroupTableViewCell.swift */; };
+		2D715D651E39A0F1004D214C /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D715D641E39A0F1004D214C /* EventModel.swift */; };
+		2D715D681E39C31E004D214C /* TaskDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D715D671E39C31E004D214C /* TaskDataModel.swift */; };
+		2D715D6C1E39C34E004D214C /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D715D6B1E39C34E004D214C /* TaskModel.swift */; };
+		2D715D721E3A0EEB004D214C /* DashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D715D711E3A0EEB004D214C /* DashModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D38DCB71E37D70100E63CEB /* ZohoKeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZohoKeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38DCBA1E37D70100E63CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D38DCBF1E37D70100E63CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D38DCC21E37D70100E63CEB /* ZohoKeep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZohoKeep.xcdatamodel; sourceTree = "<group>"; };
+		2D38DCC41E37D70100E63CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D38DCC71E37D70100E63CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D38DCC91E37D70100E63CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D38DCD61E38425400E63CEB /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		2D38DCD91E3842C600E63CEB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2D38DCDB1E38436700E63CEB /* BaseNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNSObject.swift; sourceTree = "<group>"; };
+		2D38DCDE1E38711800E63CEB /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		2D38DCE11E38791800E63CEB /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2D38DCE71E38861000E63CEB /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		2D38DCEA1E38D31E00E63CEB /* GroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
+		2D38DCED1E38D4EE00E63CEB /* GroupDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupDataModel.swift; sourceTree = "<group>"; };
+		2D38DCEF1E38D7F500E63CEB /* EnumClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumClasses.swift; sourceTree = "<group>"; };
+		2D38DCF11E38F02200E63CEB /* CreateTaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskModel.swift; sourceTree = "<group>"; };
+		2D38DCF31E38F1E900E63CEB /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		2D38DCF51E390CD900E63CEB /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		2D715D641E39A0F1004D214C /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		2D715D671E39C31E004D214C /* TaskDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDataModel.swift; sourceTree = "<group>"; };
+		2D715D6B1E39C34E004D214C /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		2D715D711E3A0EEB004D214C /* DashModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D38DCB41E37D70100E63CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D38DCAE1E37D70100E63CEB = {
+			isa = PBXGroup;
+			children = (
+				2D38DCB91E37D70100E63CEB /* ZohoKeep */,
+				2D38DCB81E37D70100E63CEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D38DCB81E37D70100E63CEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCB71E37D70100E63CEB /* ZohoKeep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D38DCB91E37D70100E63CEB /* ZohoKeep */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCCF1E383CFB00E63CEB /* Components */,
+				2D38DCDD1E3846A100E63CEB /* Resourses */,
+				2D38DCC91E37D70100E63CEB /* Info.plist */,
+				2D38DCC11E37D70100E63CEB /* ZohoKeep.xcdatamodeld */,
+			);
+			path = ZohoKeep;
+			sourceTree = "<group>";
+		};
+		2D38DCCF1E383CFB00E63CEB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCE91E38D27100E63CEB /* CoreDataModel */,
+				2D38DCE01E3878FF00E63CEB /* Extension */,
+				2D38DCD11E38410500E63CEB /* Source */,
+				2D38DCD81E38427700E63CEB /* BaseClasses */,
+				2D38DCD01E3840DB00E63CEB /* AppDelegate */,
+				2D38DCEF1E38D7F500E63CEB /* EnumClasses.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		2D38DCD01E3840DB00E63CEB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCBA1E37D70100E63CEB /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2D38DCD11E38410500E63CEB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCE31E38859400E63CEB /* CreateTask */,
+				2D38DCD21E38418D00E63CEB /* DashBoard */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		2D38DCD21E38418D00E63CEB /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCD51E3841AF00E63CEB /* Model */,
+				2D38DCD41E3841AA00E63CEB /* View */,
+				2D38DCD31E3841A500E63CEB /* Controller */,
+			);
+			name = DashBoard;
+			sourceTree = "<group>";
+		};
+		2D38DCD31E3841A500E63CEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCD61E38425400E63CEB /* DashBoardViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2D38DCD41E3841AA00E63CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCDE1E38711800E63CEB /* TaskTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2D38DCD51E3841AF00E63CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D715D711E3A0EEB004D214C /* DashModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2D38DCD81E38427700E63CEB /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCD91E3842C600E63CEB /* BaseViewController.swift */,
+				2D38DCDB1E38436700E63CEB /* BaseNSObject.swift */,
+			);
+			name = BaseClasses;
+			sourceTree = "<group>";
+		};
+		2D38DCDD1E3846A100E63CEB /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCBE1E37D70100E63CEB /* Main.storyboard */,
+				2D38DCC41E37D70100E63CEB /* Assets.xcassets */,
+				2D38DCC61E37D70100E63CEB /* LaunchScreen.storyboard */,
+			);
+			name = Resourses;
+			sourceTree = "<group>";
+		};
+		2D38DCE01E3878FF00E63CEB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCE11E38791800E63CEB /* UIView+Extension.swift */,
+				2D38DCF31E38F1E900E63CEB /* String+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		2D38DCE31E38859400E63CEB /* CreateTask */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCE61E3885B300E63CEB /* Model */,
+				2D38DCE51E3885AC00E63CEB /* View */,
+				2D38DCE41E3885A600E63CEB /* Controller */,
+			);
+			name = CreateTask;
+			sourceTree = "<group>";
+		};
+		2D38DCE41E3885A600E63CEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCE71E38861000E63CEB /* CreateTaskViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2D38DCE51E3885AC00E63CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCF51E390CD900E63CEB /* GroupTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2D38DCE61E3885B300E63CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCF11E38F02200E63CEB /* CreateTaskModel.swift */,
+				2D715D641E39A0F1004D214C /* EventModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2D38DCE91E38D27100E63CEB /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D715D661E39C2F7004D214C /* TaskModel */,
+				2D38DCEC1E38D42900E63CEB /* GroupModels */,
+			);
+			name = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		2D38DCEC1E38D42900E63CEB /* GroupModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D38DCEA1E38D31E00E63CEB /* GroupModel.swift */,
+				2D38DCED1E38D4EE00E63CEB /* GroupDataModel.swift */,
+			);
+			name = GroupModels;
+			sourceTree = "<group>";
+		};
+		2D715D661E39C2F7004D214C /* TaskModel */ = {
+			isa = PBXGroup;
+			children = (
+				2D715D671E39C31E004D214C /* TaskDataModel.swift */,
+				2D715D6B1E39C34E004D214C /* TaskModel.swift */,
+			);
+			name = TaskModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D38DCB61E37D70100E63CEB /* ZohoKeep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D38DCCC1E37D70100E63CEB /* Build configuration list for PBXNativeTarget "ZohoKeep" */;
+			buildPhases = (
+				2D38DCB31E37D70100E63CEB /* Sources */,
+				2D38DCB41E37D70100E63CEB /* Frameworks */,
+				2D38DCB51E37D70100E63CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZohoKeep;
+			productName = ZohoKeep;
+			productReference = 2D38DCB71E37D70100E63CEB /* ZohoKeep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D38DCAF1E37D70100E63CEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bala;
+				TargetAttributes = {
+					2D38DCB61E37D70100E63CEB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2D38DCB21E37D70100E63CEB /* Build configuration list for PBXProject "ZohoKeep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D38DCAE1E37D70100E63CEB;
+			productRefGroup = 2D38DCB81E37D70100E63CEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D38DCB61E37D70100E63CEB /* ZohoKeep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D38DCB51E37D70100E63CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38DCC81E37D70100E63CEB /* LaunchScreen.storyboard in Resources */,
+				2D38DCC51E37D70100E63CEB /* Assets.xcassets in Resources */,
+				2D38DCC01E37D70100E63CEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D38DCB31E37D70100E63CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38DCDA1E3842C600E63CEB /* BaseViewController.swift in Sources */,
+				2D38DCE21E38791800E63CEB /* UIView+Extension.swift in Sources */,
+				2D38DCEB1E38D31E00E63CEB /* GroupModel.swift in Sources */,
+				2D38DCDC1E38436700E63CEB /* BaseNSObject.swift in Sources */,
+				2D38DCF21E38F02200E63CEB /* CreateTaskModel.swift in Sources */,
+				2D38DCDF1E38711800E63CEB /* TaskTableViewCell.swift in Sources */,
+				2D38DCF41E38F1E900E63CEB /* String+Extension.swift in Sources */,
+				2D715D721E3A0EEB004D214C /* DashModel.swift in Sources */,
+				2D715D6C1E39C34E004D214C /* TaskModel.swift in Sources */,
+				2D38DCF61E390CD900E63CEB /* GroupTableViewCell.swift in Sources */,
+				2D38DCEE1E38D4EE00E63CEB /* GroupDataModel.swift in Sources */,
+				2D38DCC31E37D70100E63CEB /* ZohoKeep.xcdatamodeld in Sources */,
+				2D38DCF01E38D7F500E63CEB /* EnumClasses.swift in Sources */,
+				2D38DCBB1E37D70100E63CEB /* AppDelegate.swift in Sources */,
+				2D715D681E39C31E004D214C /* TaskDataModel.swift in Sources */,
+				2D38DCD71E38425400E63CEB /* DashBoardViewController.swift in Sources */,
+				2D715D651E39A0F1004D214C /* EventModel.swift in Sources */,
+				2D38DCE81E38861000E63CEB /* CreateTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D38DCBE1E37D70100E63CEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D38DCBF1E37D70100E63CEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D38DCC61E37D70100E63CEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D38DCC71E37D70100E63CEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D38DCCA1E37D70100E63CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D38DCCB1E37D70100E63CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D38DCCD1E37D70100E63CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZohoKeep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bala.ZohoKeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2D38DCCE1E37D70100E63CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ZohoKeep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bala.ZohoKeep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D38DCB21E37D70100E63CEB /* Build configuration list for PBXProject "ZohoKeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D38DCCA1E37D70100E63CEB /* Debug */,
+				2D38DCCB1E37D70100E63CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D38DCCC1E37D70100E63CEB /* Build configuration list for PBXNativeTarget "ZohoKeep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D38DCCD1E37D70100E63CEB /* Debug */,
+				2D38DCCE1E37D70100E63CEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D38DCC11E37D70100E63CEB /* ZohoKeep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D38DCC21E37D70100E63CEB /* ZohoKeep.xcdatamodel */,
+			);
+			currentVersion = 2D38DCC21E37D70100E63CEB /* ZohoKeep.xcdatamodel */;
+			path = ZohoKeep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D38DCAF1E37D70100E63CEB /* Project object */;
+}
